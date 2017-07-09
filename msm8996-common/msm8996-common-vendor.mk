@@ -80,6 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so
 
+PRODUCT_PACKAGES += \
+    HotwordEnrollment
+
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -163,6 +166,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/msm8996-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lge/msm8996-common/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
+    vendor/lge/msm8996-common/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/sensors.vr.so:system/lib64/hw/sensors.vr.so \
     vendor/lge/msm8996-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lge/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
